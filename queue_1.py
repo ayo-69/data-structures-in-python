@@ -7,7 +7,6 @@ class _Queue:
 
     def dequeue(self):
         self.queue.pop()
-        self.queue[0] = None
 
 test = _Queue(3)
 print(test.queue)
